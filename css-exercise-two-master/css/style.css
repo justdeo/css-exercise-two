@@ -1,0 +1,92 @@
+body {
+	background-color: #fff;
+	color: #333;
+	font-size: 18px;
+	}
+	/******* navigation *******/
+	nav {
+	background-color: #333;
+	float: left;
+	position: fixed;
+	width: 100%;
+	}
+
+	/* links*/
+
+	a:link { color: #999; } /* unvisited */
+	a:visited { color:#fff; } /* visited */
+	a:hover { color:#1f86c2; } /* mouse over */
+	a:active { color:#fff; font-style: italic;} /* selected */
+
+	/* image styles*/
+
+	.logo {
+	margin: 20px;
+	width: 100px;
+	}
+
+	.large-pic {
+	width: 100%;
+	}
+
+	.medium-pic {
+	width: 70%;
+	}
+
+	/* floats*/
+
+	.left, .right {
+	float: left;
+	width: 50%;
+	}
+
+	.right {
+	float: right;
+	}
+
+
+
+	ul {
+	list-style-type: none;
+	float: right;
+	}
+
+	li {
+	float: right;
+	padding: 30px;
+	}
+
+	/******* main *******/
+	article {
+	padding-top: 100px;
+	}
+
+	.author{
+	font-style: italic;
+	font-size: 100% ;
+	padding-bottom: 24px;
+	}
+
+	.container {
+	margin: 0 auto;
+	width: 50%;
+	}
+
+	figcaption{
+	font-style:italic;
+	}
+
+	h1{
+	font-size: 40px;
+	padding: 24px 0 24px 0;
+	}
+
+	h3{
+	font-size: 150%;
+	padding-bottom: 24px;
+	line-height: 29px;
+	}
+
+	.story-text {
+	line-height: 24px;
+	}
